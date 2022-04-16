@@ -28,6 +28,11 @@
 
 .footer__contato li a {
   color: #fff;
+  text-decoration: none;
+}
+
+.footer__contato li a:hover {
+  color: #8f8f8f;
 }
 
 .footer__copy {
