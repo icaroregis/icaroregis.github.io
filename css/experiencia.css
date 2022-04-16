@@ -108,8 +108,16 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+
+  .empresa__titulo {
+    font-size: 0.8rem;
+  }
+
+  .empresa__texto {
+    font-size: 0.8rem;
   }
 }
