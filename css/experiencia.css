@@ -55,8 +55,28 @@
   left: -100px;
   color: #525252;
   font-size: 0.875rem;
-  width: 80px;
+  width: 90px;
   text-align: right;
+}
+
+.empresa__local {
+  position: absolute;
+  top: 40px;
+  left: -100px;
+  color: #525252;
+  font-size: 0.875rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.empresa__local_2 {
+  position: absolute;
+  top: 40px;
+  left: -120px;
+  color: #525252;
+  font-size: 0.875rem;
+  text-align: right;
+  font-weight: bold;
 }
 
 .empresa__titulo {

@@ -33,7 +33,7 @@ img {
   text-transform: uppercase;
 
   /* quantidade de letras que caberão quando esticar */
-  max-width: 4ch;
+  width: 4ch;
   /* quantidade de letras que caberão quando esticar */
 }
 
