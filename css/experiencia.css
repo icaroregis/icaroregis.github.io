@@ -49,7 +49,10 @@
   left: -4px;
 }
 
-.empresa__ano {
+.empresa__ano,
+.empresa__ano__2,
+.empresa__local,
+.empresa__local__2 {
   position: absolute;
   top: 21px;
   left: -100px;
@@ -60,23 +63,20 @@
 }
 
 .empresa__local {
-  position: absolute;
-  top: 40px;
-  left: -100px;
-  color: #525252;
-  font-size: 0.875rem;
-  text-align: right;
   font-weight: bold;
+  top: 40px;
 }
 
-.empresa__local_2 {
-  position: absolute;
-  top: 40px;
-  left: -120px;
-  color: #525252;
-  font-size: 0.875rem;
-  text-align: right;
+.empresa__ano__2,
+.empresa__local__2 {
+  left: -140px;
+  width: 130px;
+  top: 21px;
+}
+
+.empresa__local__2 {
   font-weight: bold;
+  top: 40px;
 }
 
 .empresa__titulo {
@@ -121,23 +121,22 @@
   }
 
   .empresa__ano,
+  .empresa__ano__2,
   .empresa__local,
-  .empresa__local_2 {
+  .empresa__local__2 {
     position: initial;
     order: 1;
     width: initial;
     text-align: left;
   }
 
-  .empresa__ano {
+  .empresa__ano,
+  .empresa__ano__2 {
     order: 1;
   }
 
-  .empresa__local {
-    order: 2;
-  }
-
-  .empresa__local_2 {
+  .empresa__local,
+  .empresa__local__2 {
     order: 2;
   }
 }
