@@ -120,11 +120,25 @@
     font-size: 1.25rem;
   }
 
-  .empresa__ano {
+  .empresa__ano,
+  .empresa__local,
+  .empresa__local_2 {
     position: initial;
     order: 1;
     width: initial;
     text-align: left;
+  }
+
+  .empresa__ano {
+    order: 1;
+  }
+
+  .empresa__local {
+    order: 2;
+  }
+
+  .empresa__local_2 {
+    order: 2;
   }
 }
 
